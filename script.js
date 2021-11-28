@@ -1,5 +1,5 @@
 // Assignment code here
-// The Password generator will provide a password with 8-50  characters based on criteria the user specifies.
+// The Password generator will provide a password with 8-128  characters based on criteria the user specifies.
 
 // Various Arrays 
 var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
@@ -25,7 +25,7 @@ function generatePassword() {
       } 
 
       // Repeat back how many charactes the user will have  
-      alert(`Your password will have ${confirmLength} characters`);
+      alert(" Your password will have " + confirmLength + " characters ");
 
     // Determine parameters of password 
     var confirmSpecialCharacter = confirm("Click OK to confirm if you would like to include special characters");
